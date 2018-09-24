@@ -1,0 +1,75 @@
+#Banner {
+    color: white;
+    background-color: black;
+    height: 100vh;
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.quote{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20vw;
+    height: 20vw;
+    margin-top: -10%; /* Half the height */
+    margin-left: -10%; /* Half the width */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.text{
+    width: 20vw;
+    height: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text p {
+    font-size:3.3vw;
+    font-weight: bolder;
+
+}
+
+.text span {
+    color: #08FDD8;
+}
+
+.console{
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre;
+    color: rgb(59, 59, 59);
+    font-size:.5vw;
+    padding: 8%;
+    /* position: absolute;
+    top: 50%;
+    left: 2%;
+    width: 25%;
+    : -12%;  */
+}
+
+.hash{
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    width: 10%;
+}
+
+.blink_me {
+    animation: blinker 1s step-start infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}

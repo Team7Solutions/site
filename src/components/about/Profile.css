@@ -1,0 +1,44 @@
+.userInfo {
+    text-align: left;
+    margin: 20px 0px;
+}
+
+.profile {
+    /* min-height: 450px !important; */
+}
+
+.userArea img {
+    width: 25vh;
+    border-radius: 50%;
+    margin-top: -15vh;
+}
+
+.mediaProvile{
+    height: 140px;
+}
+.skills{
+    margin: 20px;
+    text-align: center;
+    font-size: 16px;;
+}
+.rating{
+    display: block;
+    width: 50%;
+    color: #fcc634;
+    float: left;
+    text-align: left;
+    height: 20px;
+}
+
+.rating svg {
+    font-size: 16px;
+}
+
+.skillName{
+    display: block;
+    width: 50%;
+    text-align: right;
+    float: left;
+    color: #008d79;
+    height: 20px;
+}
